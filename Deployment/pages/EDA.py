@@ -30,9 +30,9 @@ st.title("Data Analysis")
 a=option = st.selectbox("Choose an option", ["Single Feature analysis", "MultiFeature Analysis"])
 
 if a=="Single Feature analysis":
-    st.image(r"Deployment\plots\Count of Treatment.png")
+    st.image(r"Deployment/plots/Count of Treatment.png")
     st.write("The number of individuals needing treatment is higher than those who do not in this dataset.")
-    st.image(r"Deployment\plots\Age Distribution.png")
+    st.image(r"Deployment/plots/Age Distribution.png")
     st.write("""
     - The age distribution is looks like almost following the uniform distribution 
 
